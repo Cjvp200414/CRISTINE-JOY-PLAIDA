@@ -32,6 +32,23 @@ void createDirecName() {
     cout << "Press any key to continue...\n"<< endl;
 }
 
+void changeDirectory() {
+    string dirName;
+    int choice;
+    cout << "\nCurrent Directory: C:\\Users\\UserName\\Documents\n" << endl;
+    cout << "****CHANGE DIRECTORY****"<< endl;
+    cout << "1. Step by Step Backward\n";
+    cout << "2. Goto Root Directory\n";
+    cout << "3. Forward Directory\n";
+    cout << "Enter the Number: ";
+    	cin >> choice;
+    cout <<""<<endl;
+    cout << "Please enter the Directory Name: ";
+    	cin >> dirName;
+    cout << "Current Directory: C:\\Users\\UserName\\Documents\\" << dirName << endl;
+    cout << "Press any key  to continue...\n\n";
+}
+
 
 
 int main() {
